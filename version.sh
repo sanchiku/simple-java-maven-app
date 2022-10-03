@@ -12,5 +12,5 @@ then
         echo $CURR_VERSION
 else
         echo "Major versions are not equal"
-        echo $1.0.0 > /var/lib/jenkins/version
+        echo $major.0.0 > /var/lib/jenkins/version
 fi
